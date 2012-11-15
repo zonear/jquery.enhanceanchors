@@ -29,8 +29,8 @@ Use in commercial and personal applications is free.
 
 ## Changelog
 
-View the [commit history](https://github.com/zonear/isotope-perfectmasonry/commits/master) for a complete robust list of changes to the script.
+View the [commit history](https://github.com/zonear/jquery.enhanceanchors/commits/master) for a complete robust list of changes to the script.
 
 + **v1.0**
-  [2012-11-13](https://github.com/zonear/isotope-perfectmasonry/commit/c6ee341a486e7b8688c6fb66dff2d079379c0932#jquery.isotope.perfectmasonry.js)
+  [2012-11-13](https://github.com/zonear/isotope-perfectmasonry/commit/e8dcd50be928b56b071b8856c65e9c2cd5e5d0d5#jquery.enhanceanchors.js)
   - Public release
