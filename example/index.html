@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Perfect Masonry example</title>
+	<style>
+		html {
+			color: rgba(0, 0, 0, 0.4);
+			font-size: 20px;
+		}
+		
+		header {
+			margin-top: 30px;
+			font-size: 200%;
+		}
+		header span {
+			font-weight: bold;
+			color: rgba(0, 0, 0, 0.7);
+		}
+		
+		nav {
+			margin: 50px 0 20px 0;
+			
+			font-size: 20px;
+			text-align: center;
+		}
+		nav a {
+			margin: 0 10px;
+			color: rgba(0, 0, 0, 0.7);
+		}
+		
+		article {
+			margin: 100px 0;
+			height: 600px;
+			
+			background: #bada55;
+			box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.5);
+		}
+		article:first-of-type {
+			margin-top: 0;
+		}
+		article h2 {
+			margin-top: 0;
+			padding-top: 50px;
+			
+			text-align: center;
+			font-size: 400%;
+			color: rgba(0, 0, 0, 0.1);
+		}
+		
+		footer {
+			margin-bottom: 100px;
+			text-align: right;
+			font-size: 150%;
+		}
+		footer a {
+			text-decoration: none;
+			font-weight: bold;
+			color: rgba(0, 0, 0, 0.7);
+		}
+	</style>
+</head>
+<body class="">
+	<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+	
+	<header><span>EnhanceAnchors</span> plugin for <span>jQuery</span></header>
+
+		<nav>
+			<a href="#article1">Article 1</a>
+			<a href="#article2">Article 2</a>
+			<a href="#article3">Article 3</a>
+			<a href="#article4">Article 4</a>
+		</nav>
+		<article id="article1">
+			<h2>Article 1</h2>
+		</article>
+		<article id="article2">
+			<h2>Article 2</h2>
+		</article>
+		<article id="article3">
+			<h2>Article 3</h2>
+		</article>
+		<article id="article4">
+			<h2>Article 4</h2>
+		</article>
+	
+	<footer>Copyright 2012 <a href="http://zonear.com">Zonear Ltd.</a></footer>
+	
+	
+	
+	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+	
+	<script src="../jquery.enhanceanchors.js"></script>
+		
+
+</body>
+</html>
