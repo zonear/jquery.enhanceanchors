@@ -18,6 +18,11 @@
 			$el.click(function(event) {
 				event.preventDefault();
 				
+				// Add history with pushState
+				if(window.history && window.history.pushState) {
+					window.history.pushState({}, document.title, $(this).attr('href'));
+				}
+				
 				// Scroll to element
 				$('html, body').animate({
 			         scrollTop: $($(this).attr('href')).offset().top
