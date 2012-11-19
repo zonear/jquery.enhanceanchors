@@ -1,7 +1,7 @@
 /*!
  * Enhance anchor links with scroll animation 
  * 
- * 
+ * @version 1.1
  * @author Zonear Ltd. <contact@zonear.com>
  */
 ;(function(document, $) {	
@@ -21,7 +21,10 @@
 				// Scroll to element
 				$('html, body').animate({
 			         scrollTop: $($(this).attr('href')).offset().top
-			    }, 500);
+			    }, {
+			    	duration: 500,
+			    	easing: 'swing'
+			    });
 			    
 				// Add history with pushState
 				if(window.history && window.history.pushState) {
