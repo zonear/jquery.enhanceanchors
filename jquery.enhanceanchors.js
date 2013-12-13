@@ -10,9 +10,13 @@
 		// Select all anchor links
 		$('a[href^=#]').each(function(i, el) {
 			var $el = $(el);
+			var href = $el.attr('href');
+			
+			// Skip hash "urls"
+			if(/\//i.test(href)) { return; }
 			
 			// Skip empty links
-			if($el.attr('href') == '#') { return; }
+			if(href == '#') { return; }
 			
 			// Set click handlers
 			$el.click(function(event) {
